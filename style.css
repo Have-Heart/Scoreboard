@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'MyGameFont';
+    src: url('fonts/CursedTimerUlil-Aznm.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+h3 {
+    font-size: 40px;
+    color: #EEEEEE;
+    margin: 0;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    background: #1B244A;
+    padding: 68px 85px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.home-container,
+.guest-container {
+display: flex;
+flex-direction: column;
+gap: 12px;
+
+}
+
+.scoreboard, 
+.button {
+        border-radius: 5px;
+
+    font-family: "MyGameFont", sans-serif;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+padding: 12px;}
+
+.scoreboard-number {
+    font-size: 90px;
+    color: #F94F6D;}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+}
+.button {
+    margin: 2px;
+    background: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #9AABD8;
+}
