@@ -15,11 +15,12 @@ h3 {
 
 body {
     margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, sans-serif;
+    background: #1B244A;
 }
 
 .container {
-    background: #1B244A;
+
     padding: 68px 85px;
     display: flex;
     justify-content: space-around;
